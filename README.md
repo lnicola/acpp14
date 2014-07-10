@@ -17,7 +17,7 @@ Tematica propusă atinge subiecte precum:
 
 Pentru a motiva noțiunile introduse și pentru a explica deciziile luate în proiectarea limbajului, vor fi făcute și comparații între C++ și alte limbaje actuale.
 
-Pe lângă aspectele teoretice este prevăzută și o serie de demonstrații și sesiuni de "live coding". Acestea vor avea ca subiect utilizarea facilităților limbajului, precum și dezvoltarea de aplicații mai mari. Temele propuse includ:
+Pe lângă aspectele teoretice este prevăzută și o serie de demonstrații și sesiuni de “live coding”. Acestea vor avea ca subiect utilizarea facilităților limbajului, precum și dezvoltarea de aplicații mai mari. Temele propuse includ:
 
   * scrierea de aplicații cu interfață grafică
   * interpretarea și compilarea programelor
