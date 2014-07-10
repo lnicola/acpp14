@@ -12,6 +12,7 @@ Tematica propusă atinge subiecte precum:
   * programare generică
   * metaprogramare
   * utilizarea sistemului de tipuri pentru a evita erorile din programe
+  * evoluția limbajului (C++11, C++14, C++17)
 
 Pentru a motiva noțiunile introduse și pentru a explica deciziile luate în proiectarea limbajului, vor fi făcute și comparații între C++ și alte limbaje actuale.
 
@@ -26,6 +27,10 @@ Materialele utilizate vor fi disponibile la [adresa curentă](http://github.com/
 # Audiență
 
 Aspectele specifice C++ vor fi în general prezentate și motivate, așa că nu este necesară cunoașterea limbajului. Deoarece se va insista mai puțin pe descrierea limbajului C, familiaritatea cu acesta se va dovedi utilă.
+
+# Locație
+
+Cursul va fi ținut în zilele de 11, 12, 14, 15, 17 și 18 iulie 2014, între orele 13:00 și 15:00 în sala 363 a Departamentului de Informatică al Universității din Craiova. Participarea este liberă.
 
 # Despre autor
 
