@@ -18,7 +18,6 @@ class CairoBasicApp : public AppBasic
         ctx.setSource(ColorA(0.3f, 0.5f, 0.9f));
         ctx.selectFontFace("Calibri", FONT_SLANT_NORMAL, FONT_WEIGHT_BOLD);
         ctx.setFontSize(90);
-        ctx.setAntiAlias(ANTIALIAS_SUBPIXEL);
         
         string text = "hello, world!";
         TextExtents te = ctx.textExtents(text);
