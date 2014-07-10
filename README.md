@@ -8,6 +8,7 @@ Tematica propusă atinge subiecte precum:
   * design al aplicațiilor
   * noțiuni generale de programare orientată pe obiect (OOP)
   * aspecte specifice OOP în C++
+  * gestiunea automată a resurselor și a memoriei
   * funcții și clase template
   * programare generică
   * metaprogramare
