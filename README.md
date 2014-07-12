@@ -1,5 +1,8 @@
 ﻿# Advanced C++
 
+## Update
+Sala cursului s-a modificat în 116.
+
 Cursul își propune să acopere aspecte mai puțin discutate ale limbajului de programare C++, insistându-se în special asupra idiomurilor specifice limbajului. Vom vedea cum putem scrie ușor în C++ programe corecte, concise și ușor de extins.
 
 Tematica propusă atinge subiecte precum:
@@ -31,7 +34,7 @@ Aspectele specifice C++ vor fi în general prezentate și motivate, așa că nu 
 
 ## Locație
 
-Cursul va fi ținut în zilele de 11, 12, 14, 15, 17 și 18 iulie 2014, între orele 13:00 și 15:00 în sala 363 a Departamentului de Informatică al Universității din Craiova. Participarea este liberă.
+Cursul va fi ținut în zilele de 11, 12, 14, 15, 17 și 18 iulie 2014, între orele 13:00 și 15:00 în sala 116 a Departamentului de Informatică al Universității din Craiova. Participarea este liberă.
 
 ## Despre autor
 
