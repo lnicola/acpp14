@@ -1,7 +1,7 @@
 ﻿# Advanced C++
 
 ## Update
-Sala cursului s-a modificat în 116.
+**Sala cursului s-a modificat în 116.**
 
 Cursul își propune să acopere aspecte mai puțin discutate ale limbajului de programare C++, insistându-se în special asupra idiomurilor specifice limbajului. Vom vedea cum putem scrie ușor în C++ programe corecte, concise și ușor de extins.
 
