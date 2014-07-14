@@ -1,0 +1,5 @@
+ERROR 2014-07-01 o eroare
+ERROR 2014-07-12 alta eroare
+INFO 2014-07-11 acum totul e ok
+ERROR 2014-07-13 inca o eroare
+ERROR 2014-07-03 a doua eroare

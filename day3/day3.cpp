@@ -1,13 +1,15 @@
 #include <algorithm>
-#include <cstdio>
+#include <chrono>
 #include <fstream>
 #include <iostream>
-#include <map>
 #include <string>
 #include <vector>
 #include <tuple>
 
+#include "timemanip.h"
+
 using namespace std;
+using namespace std::chrono;
 
 enum class entry_kind
 {
@@ -21,21 +23,20 @@ class entry
 {
 public:
     entry_kind kind_;
-    string date_;
+    system_clock::time_point date_;
     string message_;
 
-    entry(entry_kind kind, string date, string message)
+    entry(entry_kind kind, system_clock::time_point date, string message)
         : kind_(kind), date_(date), message_(message)
+    {
+    }
+
+    entry()
     {
     }
 };
 
-bool starts_with(string s, string prefix)
-{
-    return s.compare(0, prefix.length(), prefix) == 0;
-}
-
-entry_kind get_entry_kind(string s)
+entry_kind get_entry_kind(const string &s)
 {
     static auto m =
     {
@@ -44,38 +45,41 @@ entry_kind get_entry_kind(string s)
         make_tuple("INFO", entry_kind::info),
     };
 
-    for (auto t : m)
-        if (starts_with(s, get<0>(t)))
+    for (const auto &t : m)
+        if (s == get<0>(t))
             return get<1>(t);
 
     return entry_kind::unknown;
 }
 
-entry parse_entry(string line)
+istream & operator>>(istream &stream, entry &e)
 {
-    auto pos = line.find(' ');
-    auto kind = get_entry_kind(line.substr(0, pos));
-    auto pos2 = line.find(' ', pos + 1);
-    auto date = line.substr(pos + 1, pos2 - pos - 1);
-    auto message = line.substr(pos2 + 1);
+    string kind;
+    system_clock::time_point date;
+    string message;
 
-    return { kind, date, message };
+    stream >> kind >> get_system_time(date, "%Y-%m-%d");
+    stream.ignore();
+    getline(stream, message);
+
+    e = { get_entry_kind(kind), date, message };
+
+    return stream;
 }
 
 int main()
 {
     ifstream file("input.txt");
-    string s;
-    vector<string> lines;
     vector<entry> entries;
+    entry e;
+     
+    while (file >> e)
+        entries.push_back(e);
 
-    while (getline(file, s))
-        lines.push_back(s);
-
-    for (auto &line : lines)
-        entries.push_back(parse_entry(line));
+    sort(entries.begin(), entries.end(),
+        [](const entry &e1, const entry &e2) { return e1.date_ < e2.date_; });
 
     for (auto &e : entries)
         if (e.kind_ == entry_kind::error)
-            cout << e.message_ << endl;
+            cout << put_system_time(e.date_, "%Y-%m-%d") << ' ' << e.message_ << endl;
 }

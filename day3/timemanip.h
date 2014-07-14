@@ -41,9 +41,9 @@ class put_system_time_helper
 {
 public:
     std::chrono::system_clock::time_point &time_;
-    const char *format_;
+    const T *format_;
 
-    put_system_time_helper(std::chrono::system_clock::time_point &time, const char *format)
+    put_system_time_helper(std::chrono::system_clock::time_point &time, const T *format)
         : time_(time), format_(format)
     {
     }
