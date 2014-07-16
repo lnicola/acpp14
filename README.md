@@ -37,6 +37,15 @@ Aspectele specifice C++ vor fi în general prezentate și motivate, așa că nu 
 
 Cursul va fi ținut în zilele de 11, 12, 14, 15, 17 și 18 iulie 2014, între orele 13:00 și 15:00 în sala 116 a Departamentului de Informatică al Universității din Craiova. Participarea este liberă.
 
+## Resurse
+
+  * [A Tour of C++](http://www.amazon.com/Tour-In-Depth-Series-Bjarne-Stroustrup/dp/0321958314)
+  * [Exceptional C++](http://www.gotw.ca/publications/xc++.htm)
+  * [C++ Primer](http://www.informit.com/store/c-plus-plus-primer-9780321714114)
+  * [isocpp.org](http://www.isocpp.org/)
+  * [Herb Sutter's Guru of the Week series](http://herbsutter.com/gotw/)
+  * [Herb Sutter's blog](http://herbsutter.com/)
+
 ## Despre autor
 
 Laurențiu Nicola a absolvit Facultatea de Automatică, Calculatoare și Electronică din Craiova în anul 2010 și lucrează în prezent în domeniul IT. Autorul poate fi contactat la adresa de mail [lnicola@dend.ro](mailto:lnicola@dend.ro).
