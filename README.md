@@ -42,11 +42,14 @@ Cursul va fi ținut în zilele de 11, 12, 14, 15, 17 și 18 iulie 2014, între o
 ## Resurse
 
   * [A Tour of C++](http://www.amazon.com/Tour-In-Depth-Series-Bjarne-Stroustrup/dp/0321958314)
-  * [Exceptional C++](http://www.gotw.ca/publications/xc++.htm)
   * [C++ Primer](http://www.informit.com/store/c-plus-plus-primer-9780321714114)
+  * [Effective C++](http://www.informit.com/store/effective-c-plus-plus-55-specific-ways-to-improve-your-9780321334879)
+  * [Exceptional C++](http://www.gotw.ca/publications/xc++.htm)
   * [isocpp.org](http://www.isocpp.org/)
   * [Herb Sutter's Guru of the Week series](http://herbsutter.com/gotw/)
   * [Herb Sutter's blog](http://herbsutter.com/)
+  * [Scott Meyers' blog](http://scottmeyers.blogspot.com/)
+  * [irc.freenode.net ##C++ resources page](http://jcatki.no-ip.org/fncpp/Resources)
 
 ## Despre autor
 
